@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/extend_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.uph.parkmore.ExtendActivity">
+
+    <TextView
+        android:text="$END"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/extend_end_dt_edit"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif"
+        android:textColor="?android:attr/textColorLink"
+        android:layout_below="@+id/extend_label"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:text="Exit anytime before:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/extend_label"
+        android:layout_marginTop="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:text="Warning: Your vehicle will be towed if you did did not check out before the end time."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="86dp"
+        android:id="@+id/extend_warning_text"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/extend_end_dt_edit"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:text="Pay with FreeCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/extend_button"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/extend_warning_text"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:text="Price ($ 10 / Hour)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/extend_end_dt_edit"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"
+        android:id="@+id/extend_price_label"/>
+
+    <TextView
+        android:text="UGx "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/extend_price_text"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:layout_below="@+id/extend_price_label"
+        android:layout_alignParentStart="true"/>
+    "
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/benx/Documents/Projects/WebProjects/files/PRS/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/home/benx/Documents/Projects/WebProjects/files/PRS/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_0c9e2a07cd2260f34537191e64328179d23a2192/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/benx/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.9.6/e370a92153bf66da17549ecc78c69ec6c6ec9f41/joda-time-2.9.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e370a92153bf66da17549ecc78c69ec6c6ec9f41">
+        <dex dex="/home/benx/Documents/Projects/WebProjects/files/PRS/app/build/intermediates/transforms/dex/debug/folders/1000/10/joda-time-2.9.6_5c803411aa1e10e35275ea582693bbf916b74353/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/benx/Documents/Projects/WebProjects/files/PRS/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1fc43d0a2479c02090942ae663eb85ab091cfe22">
+        <dex dex="/home/benx/Documents/Projects/WebProjects/files/PRS/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3c72d2437dbbc8bce787f599ac4ce81c944f3e65/classes.dex" />
+    </item>
+
+</items>
